@@ -1,3 +1,3 @@
 export const FinancialRecordList = () => {
-  return <div>RecordList</div>;
+  return <div className="list-container">RecordList</div>;
 };
