@@ -8,6 +8,11 @@ h1,
 h2 {
   color: #2c3e50;
   text-align: center;
+  font-weight: bolder;
+}
+
+h1 span {
+  font-weight: normal;
 }
 
 /* Form and list container */
@@ -18,7 +23,7 @@ h2 {
 
 /* Common class for all buttons */
 .button {
-  background-color: #3498db;
+  background-color: #5a9246;
   color: #ffffff;
   border: none;
   padding: 8px 15px;
@@ -29,10 +34,10 @@ h2 {
 }
 
 .button:hover {
-  background-color: #2980b9;
+  background-color: #3a5f2d;
 }
 .button-delete {
-  background-color: #343cdb;
+  background-color: rgb(165, 0, 0);
   color: #ffffff;
   border: none;
   padding: 8px 15px;
@@ -43,7 +48,7 @@ h2 {
 }
 
 .button-delete:hover {
-  background-color: #343cdb;
+  background-color: red;
 }
 
 /* Common class for all input fields and selects */
@@ -55,12 +60,12 @@ h2 {
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 5px;
-  color: #3498db;
+  color: #5a9246;
 }
 
 /* Labels for better readability */
 label {
-  font-weight: 600;
+  font-weight: bold;
   display: block;
   margin-bottom: 5px;
 }
@@ -82,10 +87,11 @@ label {
   padding: 12px 15px;
   border: 1px solid #ddd; /* Light grey border for cells */
   text-align: left;
+  font-weight: bold;
 }
 
 .table th {
-  background-color: #3498db; /* Darker blue header background */
+  background-color: #5a9246; /* Darker blue header background */
   color: white;
   font-size: 16px;
 }
@@ -95,5 +101,9 @@ label {
 }
 
 .table tbody tr:hover {
-  background-color: #e8f4f8; /* Light blue hover effect for rows */
+  background-color: #e9f8e8; /* Light blue hover effect for rows */
+}
+
+div.total {
+  font-weight: bold;
 }
