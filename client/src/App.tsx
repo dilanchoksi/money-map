@@ -14,7 +14,7 @@ function App() {
         <div className="navbar">
           <div className="logo">MoneyMap</div>
           <div className="tabs">
-            <Link to="/">My Expenses</Link>
+            <Link to="/">Dashboard</Link>
             <SignedIn>
               <UserButton />
             </SignedIn>
