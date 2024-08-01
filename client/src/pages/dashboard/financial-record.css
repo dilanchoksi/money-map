@@ -23,7 +23,7 @@ h1 span {
 
 /* Common class for all buttons */
 .button {
-  background-color: #5a9246;
+  background-color: green;
   color: #ffffff;
   border: none;
   padding: 8px 15px;
@@ -60,7 +60,7 @@ h1 span {
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 5px;
-  color: #5a9246;
+  color: green;
 }
 
 /* Labels for better readability */
@@ -91,7 +91,7 @@ label {
 }
 
 .table th {
-  background-color: #5a9246; /* Darker blue header background */
+  background-color: green; /* Darker blue header background */
   color: white;
   font-size: 16px;
 }

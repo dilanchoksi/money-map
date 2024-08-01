@@ -5,7 +5,7 @@ import { Dashboard } from "./pages/dashboard";
 import { Auth } from "./pages/auth";
 import { FinancialRecordsProvider } from "./contexts/financial-record-context";
 import { SignedIn, UserButton } from "@clerk/clerk-react";
-import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedRoute from "./components/protected-route";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <div className="app-container">
         <div className="navbar">
           <div className="logo">MoneyMap</div>
-          <div className="nav">
-            <Link to="/">Dashboard</Link>
+          <div className="tabs">
+            <Link to="/">My Expenses</Link>
             <SignedIn>
               <UserButton />
             </SignedIn>
