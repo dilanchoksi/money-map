@@ -113,12 +113,12 @@ export const FinancialRecordList = () => {
         ),
       },
       {
-        Header: "Delete",
         id: "delete",
         Cell: ({ row }) => (
           <button
             onClick={() => deleteRecord(row.original._id ?? "")}
             className="button"
+            style={{ backgroundColor: "#ff0000" }}
           >
             Delete
           </button>
