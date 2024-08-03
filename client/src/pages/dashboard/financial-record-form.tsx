@@ -67,6 +67,7 @@ export const FinancialRecordForm = () => {
             <option value="Salary">Salary</option>
             <option value="Utilities">Utilities</option>
             <option value="Entertainment">Entertainment</option>
+            <option value="Subscription">Subscription</option>
             <option value="Other">Other</option>
           </select>
         </div>
@@ -82,6 +83,8 @@ export const FinancialRecordForm = () => {
             <option value="Credit Card">Credit Card</option>
             <option value="Cash">Cash</option>
             <option value="Bank Transfer">Bank Transfer</option>
+            <option value="Gift Card">Gift Card</option>
+            <option value="Points">Points</option>
           </select>
         </div>
         <button type="submit" className="button">
