@@ -29,12 +29,9 @@ function App() {
                 <FinancialRecordsProvider>
                   <Dashboard />
                   <p id="note">
-                    <b>
-                      Note: MongoDB may take up to two minutes to connect. Until
-                      then, you won't be able to see your previous data or add
-                      any records. Please be patient, the app is not broken
-                      :&#41;
-                    </b>
+                    <b>Note:</b> MongoDB may take up to two minutes to connect.
+                    Until then, you won't be able to see your previous data or
+                    add any records.
                   </p>
                 </FinancialRecordsProvider>
               }
