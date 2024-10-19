@@ -3,13 +3,13 @@ import { Navigate, Outlet } from "react-router-dom";
 import { useUser } from "@clerk/clerk-react";
 
 interface ProtectedRouteProps {
-  // You can pass additional props if needed
+  // additional props if needed in future
 }
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = () => {
   const { user } = useUser();
 
-  // If the user is not signed in, redirect to the sign-in page
+  // redirect to the sign-in page if not signed in
   if (!user) {
     return <Navigate to="/auth" />;
   }

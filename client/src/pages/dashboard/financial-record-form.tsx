@@ -88,7 +88,7 @@ export const FinancialRecordForm = () => {
           </select>
         </div>
         <button type="submit" className="button">
-          Add Expense
+          Add
         </button>
       </form>
     </div>

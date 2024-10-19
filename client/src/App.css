@@ -40,7 +40,7 @@ html {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #ffffff; /* Adjust color to fit your design */
+  color: #ffffff;
   margin-right: 20px;
 }
 .sign-in-container {
@@ -52,7 +52,7 @@ html {
 }
 
 .navbar a {
-  color: white; /* Ensures links are white */
+  color: white; /* ensure links are white */
   text-decoration: none;
   margin-right: 20px;
   font-weight: bold;
@@ -60,10 +60,10 @@ html {
 }
 
 .navbar a:hover {
-  color: #e0e0e0; /* Light grey for hover effect */
+  color: #e0e0e0; /* Light grey hover effect */
 }
 
-/* Specific styling for Clerk's UserButton if needed */
+/* specific styling for Clerk's UserButton */
 .clerk-user-button {
   background-color: transparent;
   border: none;
@@ -72,7 +72,7 @@ html {
 }
 
 .clerk-user-button:hover {
-  color: #e0e0e0; /* Consistency in hover effects */
+  color: #e0e0e0;
 }
 
 #note {
