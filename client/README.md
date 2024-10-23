@@ -137,7 +137,7 @@ interface FinancialRecord {
 
 ## Notes
 
-- MongoDB may take up to two minutes to connect on initial startup
+- MongoDB may take up to a minute to connect on initial startup
 - All financial data is tied to individual user accounts
 - Transactions can be edited by clicking on the field
 - The total amount updates automatically with each transaction
